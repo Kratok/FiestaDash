@@ -1,8 +1,8 @@
 .sortable{
-	background-color: 0;
 	display: flex;
-	flex-flow: row wrap;
-	align-items: flex-start;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    background-image: url("Fiesta.jpg");
 	cursor: auto;
 }
 .border{
