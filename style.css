@@ -6,9 +6,10 @@
 	cursor: auto;
 }
 .border{
+  background-color: rgba(0,140,140,.5);
 	flex-grow: 0;
-    transition:width 0.5s; /* Animation time */
-    -webkit-transition:width 0.5s; /* For Safari */
+    transition: 0.2s; /* Animation time */
+    -webkit-transition: 0.2s; /* For Safari */
 }
 .border:hover{
 	flex-grow: 1;
