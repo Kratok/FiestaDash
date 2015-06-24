@@ -1,15 +1,14 @@
 .sortable{
-	background-color: 0;
 	display: flex;
-	flex-flow: row wrap;
-	align-items: flex-start;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    background-image: url("Fiesta.jpg");
 	cursor: auto;
 }
 .border{
-	background-color: #2A75A9;
-	width: 620;
-    transition:height 0.5s; /* Animation time */
-    -webkit-transition:height 0.5s; /* For Safari */
+	flex-grow: 0;
+    transition:width 0.5s; /* Animation time */
+    -webkit-transition:width 0.5s; /* For Safari */
 }
 .border:hover{
-	width: 630px;
+	flex-grow: 1;
