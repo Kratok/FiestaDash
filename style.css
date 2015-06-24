@@ -8,8 +8,8 @@
 .border{
 	background-color: #2A75A9;
 	width: 620;
-    transition:height 0.5s; /* Animation time */
-    -webkit-transition:height 0.5s; /* For Safari */
+    transition:width 0.5s; /* Animation time */
+    -webkit-transition:width 0.5s; /* For Safari */
 }
 .border:hover{
-	width: 630px;
+	width: 670px;
