@@ -1,19 +1,15 @@
 <html style="
     background: url(&quot;fiesta.jpg&quot;);
-"><head>
-<title>Fiesta Dash!</title>
-</head>
-	<body style="
-    background: url(&quot;fiesta.jpg&quot;);
-"><iframe src="http://www.twitch.tv/ster/chat?popout=" scrolling="no" frameborder="0" style="
-    width: 18%;
-    height: 100%;
-"></iframe>
-	<iframe src="http://www.twitch.tv/gamesdonequick/embed" scrolling="no" frameborder="0" style="
-    width: 80%;
-    height: 100%;
-"></iframe>
+"><!-- Add a placeholder for the Twitch embed -->
+<div id="twitch-embed"></div>
 
-	
+<!-- Load the Twitch embed script -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
 
+<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<script type="text/javascript">
+  new Twitch.Player("twitch-embed", {
+    channel: "averagetrey"
+  });
+</script>
 </body></html>
